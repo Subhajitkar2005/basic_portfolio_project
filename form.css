@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #172554;
+    padding: 0 20px;
+}
+.navbar1 p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.navbar2 {
+    display: flex;
+    gap: 10px;
+}
+.navbar2 a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.navbar2 a:hover {
+    background-color: #2563eb;
+}
+.form-container {
+    background-color: white;
+    width: 500px;
+    max-width: 85%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+.form-container h1 {
+    text-align: center;
+    color: #172554;
+    margin-bottom: 10px;
+}
+.form-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+form input,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+form textarea {
+    resize: vertical;
+}
+form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #172554;
+}
+.back {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #2563eb;
+    text-decoration: none;
+}
+.back:hover {
+    text-decoration: underline;
+}
+#footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#footer p {
+    margin: 0;
+    font-size: 13px;
+}

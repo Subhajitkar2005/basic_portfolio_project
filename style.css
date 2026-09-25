@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #172554;
+    padding: 0 20px;
+}
+.navbar1 p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.navbar1 p:hover {
+    color: #60a5fa;
+}
+.navbar2 {
+    display: flex;
+    gap: 10px;
+}
+.navbar2 a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.navbar2 a:hover {
+    color: #60a5fa;
+}
+#hero {
+    text-align: center;
+    padding: 55px 30px 65px;
+}
+#hero h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #172554;
+}
+#hero p {
+    font-size: 20px;
+    color: #475569;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 45px;
+}
+.cards {
+    display: flex;
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+.card1,
+.card2,
+.card3 {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    flex: 1;
+    min-height: 150px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    border-top: 4px solid #2563eb;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    transform: translateY(-4px);
+}
+.card1-header,
+.card2-header,
+.card3-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #172554;
+    margin-bottom: 15px;
+}
+.card1-body,
+.card2-body,
+.card3-body {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #555;
+}
+#footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.contact-me h4 {
+    margin: 0 0 15px;
+    line-height: 1.5;
+}
+#footer a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 9px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#footer a:hover {
+    background-color: #60a5fa;
+}
+.copyright h5 {
+    margin: 20px 0 0;
+    font-size: 13px;
+    font-weight: normal;
+}
