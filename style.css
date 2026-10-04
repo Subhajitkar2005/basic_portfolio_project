@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f6f8;
     color: #222;
 }
@@ -33,6 +33,16 @@ body {
 .navbar2 a:hover {
     color: #60a5fa;
 }
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 13.6px;
+  color: #1d4ed8;
+  background: #dbeafe;
+  border-radius: 9999px;
+  margin-bottom: 12px;
+  cursor: default;
+}
 #hero {
     text-align: center;
     padding: 55px 30px 65px;
@@ -46,17 +56,21 @@ body {
     font-size: 20px;
     color: #475569;
     margin-bottom: 20px;
+    font-family: 'arial', sans-serif;
 }
 .about p {
     font-size: 17px;
     color: #555;
     margin-bottom: 45px;
+    font-family: 'arial', sans-serif;
 }
 .cards {
     display: flex;
     gap: 25px;
     max-width: 1200px;
-    margin: auto;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card1,
 .card2,
@@ -108,14 +122,15 @@ body {
     background-color: #2563eb;
     color: white;
     padding: 9px 16px;
-    border-radius: 5px;
+    border-radius: 999px;
     text-decoration: none;
 }
 #footer a:hover {
     background-color: #60a5fa;
 }
-.copyright h5 {
-    margin: 20px 0 0;
-    font-size: 13px;
-    font-weight: normal;
+.copyright p {
+  margin: 14px 0 0;
+  font-size: 12px;
+  color: #94a3b8;
+  letter-spacing: 0.2px;
 }
